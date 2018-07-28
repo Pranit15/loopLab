@@ -1,0 +1,59 @@
+body {
+  background: #333;
+  color: #fff; }
+
+/**BUTTONS**/
+button:focus, a:focus {
+  outline: none; }
+
+/**NAVBAR**/
+.navbar {
+  border-bottom: 3px solid #008ed6;
+  opacity: 0.8; }
+
+/**HOME-SECTION**/
+#home-section {
+  background: url("../img/home.jpg") center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh; }
+  #home-section .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; }
+  #home-section .inner-home {
+    padding-top: 150px; }
+  #home-section .card {
+    opacity: 0.8; }
+  #home-section .fa {
+    background: #fff;
+    color: #008ed6;
+    padding: 4px;
+    font-size: 23px;
+    border-radius: 5px;
+    margin-top: 5px; }
+
+/**EXPLORE BODY SECTION**/
+#explore-section .fa {
+  background: #333;
+  color: #fff;
+  padding: 4px;
+  font-size: 23px;
+  border-radius: 5px;
+  margin-top: 5px; }
+
+/**CREATE HEADING**/
+.create-heading {
+  background: #008ed6; }
+
+/**CREATE BODY**/
+#create-section .fa {
+  background: #fff;
+  color: #008ed6;
+  padding: 4px;
+  font-size: 23px;
+  border-radius: 5px;
+  margin-top: 5px; }

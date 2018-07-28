@@ -1,0 +1,20 @@
+{
+  "name": "bs4-starter",
+  "version": "1.0.0",
+  "description": "boostrap projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Pranit Batra",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "browser-sync": "^2.24.6",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
+}
